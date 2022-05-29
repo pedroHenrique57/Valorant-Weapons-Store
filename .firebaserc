@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "diario-viagens-aula": {
+      "hosting": {
+        "Valorant-Weapons-Store": [
+          "diario-viagens-aula"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "diario-viagens-aula"
+  }
+}
