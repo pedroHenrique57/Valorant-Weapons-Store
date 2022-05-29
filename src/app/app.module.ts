@@ -11,6 +11,8 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CoreModule } from "./core/core.module"
+import { AuthModule } from './auth/auth.module'
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -25,8 +27,10 @@ import { CoreModule } from "./core/core.module"
     provideStorage(() => getStorage()),
     BrowserAnimationsModule,
     NgbModule,
-    CoreModule
-  ],
+    CoreModule,
+    AuthModule,
+    SharedModule,
+    ],
   providers: [],
   bootstrap: [AppComponent],
   exports: [
