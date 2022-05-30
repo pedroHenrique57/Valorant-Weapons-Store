@@ -13,6 +13,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CoreModule } from "./core/core.module"
 import { AuthModule } from './auth/auth.module'
 import { SharedModule } from './shared/shared.module';
+import { HotToastModule } from '@ngneat/hot-toast';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { SharedModule } from './shared/shared.module';
     CoreModule,
     AuthModule,
     SharedModule,
+    HotToastModule.forRoot(),
     ],
   providers: [],
   bootstrap: [AppComponent],

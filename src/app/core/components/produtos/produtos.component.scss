@@ -1,0 +1,29 @@
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(15, 25, 35);
+    align-items: center;
+    color: #8559da;
+    text-align: center;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.produto-card {
+    max-width: 400px;
+}
+
+.produto-text {}
+
+.header-image {
+    // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.col {
+    padding-bottom: 10px;
+}

@@ -8,7 +8,7 @@ import { RecuperarSenhaComponent } from './components/recuperar-senha/recuperar-
 import { UsuarioNaoVerificadoComponent } from './components/usuario-nao-verificado/usuario-nao-verificado.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from '../shared/material.module';
-
+import { HotToastModule } from '@ngneat/hot-toast';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import { MaterialModule } from '../shared/material.module';
     AuthRoutingModule,
     ReactiveFormsModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    HotToastModule.forRoot()
   ]
 })
 export class AuthModule { }

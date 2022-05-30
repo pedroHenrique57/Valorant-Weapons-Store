@@ -1,0 +1,33 @@
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(15, 25, 35);
+    align-items: center;
+    color: #8559da;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.card {
+    width: 854px;
+    height: 416px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
